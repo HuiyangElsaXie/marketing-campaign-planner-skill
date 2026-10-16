@@ -1,0 +1,14 @@
+{
+  "reviewed_on": "2026-10-16",
+  "sources": [
+    {
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "path": "skills/launch/SKILL.md",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "copyright": "Copyright (c) 2025 Corey Haines",
+      "use": "narrow adaptation; see THIRD_PARTY_NOTICES.md"
+    }
+  ]
+}
