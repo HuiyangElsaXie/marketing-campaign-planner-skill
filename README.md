@@ -13,12 +13,24 @@
 
 交付：使用 [campaign brief](templates/campaign-brief.md) 整理目标与受众、渠道取舍、容量内排期、一份代表素材、衡量定义和待确认事项。目标是计划，不是已发生的报名或转化。
 
+### 从目标到执行简报
+1. **你**给定目标、受众、渠道权限、预算和可投入时间，并确认真实优惠与 CTA 去向。
+2. **AI**比较可行渠道，安排准备、待执行素材和学习任务，拟定负责人、依赖及衡量口径。
+3. **你**判断渠道取舍、容量和素材是否合适；未定事实或权限保留为执行阻塞项。
+4. **AI**交付活动简报、代表素材、任务表与待决事项；你决定后续是否执行，本技能不启动活动。
+
 ## English
 Personal-use marketing workflow, continuously updated as real use reveals improvements. This is a first usable version, not a claim of proven business performance.
 
 Scope: Campaign planning, execution briefs, and review gates. Read SKILL.md with an AI agent, supply a brief and permitted source material, and use the output template. Copy the full folder only when your agent supports local skills; follow that agent's installation instructions. No runtime dependencies, credentials, paid tests, or automatic publishing are required.
 
 Example: “Plan a two-week workshop-interest campaign for one organizer with three hours/week and no budget. Compare feasible channels, assign asset tasks and define measurement and readiness checks; do not launch.” Return the campaign brief, a representative draft asset and unresolved approval/evidence gaps.
+
+### From goal to execution brief
+1. **You** supply the goal, audience, channel access, budget and time; confirm the actual offer and CTA destination.
+2. **AI** compares feasible channels, plans preparation/assets/learning, and proposes owners, dependencies and measurement definitions.
+3. **You** judge trade-offs, capacity and assets; unresolved facts or permissions remain execution blockers.
+4. **AI** returns the brief, representative asset, backlog and decisions needed. You decide any later execution; this skill does not launch it.
 
 Files: SKILL.md is the workflow; references/ contains the adapted method; templates/ contains the output structure; examples/ contains fictional practice material. THIRD_PARTY_NOTICES.md and licenses/ preserve upstream attribution and terms.
 
