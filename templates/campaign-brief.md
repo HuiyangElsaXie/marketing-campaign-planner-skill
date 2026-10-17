@@ -2,7 +2,7 @@
 ## Context and provenance
 - Offer / business stage:
 - Objective / primary conversion event:
-- Audience / problem / existing evidence:
+- Audience / problem / existing evidence (each supplied / inferred / unknown):
 - Reused source facts (source, date, status):
 - Assumptions / missing inputs:
 - Constraints: time, people, assets, budget ceiling (proposal only):
@@ -16,6 +16,7 @@
 ## Asset brief
 - Publisher / audience / angle / evidence / format / CTA / destination / owner / approval:
 - Representative draft:
+- Copy presupposition check: no unsupported recurrence, dates, availability or pending-confirmation story:
 ## Measurement and decision
 | Metric / event | Definition | Source | Baseline | Proposed target | Cadence | Decision rule / caveat |
 |---|---|---|---|---|---|---|

@@ -1,0 +1,72 @@
+{
+  "reviewer": "r3_review_c",
+  "model": "gpt-6.1-sol",
+  "repo": "marketing-campaign-planner-skill",
+  "case": "inference-and-recurrence",
+  "scope": "THIS CASE ONLY; frozen FIRST answer; independent reviewer did not execute the answer",
+  "overall": "PASS",
+  "format": "PASS",
+  "factual_identity": "PASS",
+  "editorial": "PASS",
+  "input_sha256": {
+    "brief.md": "2ccb7bf4eba7a19c83120b03893e746cc666d86efb0c662afcc9512d95a902f3",
+    "case.json": "fcc5e2e77ff652b28fc4625b64ce60ec65bff24d1662e2fda4160701c0e580e9"
+  },
+  "raw_sha256": "d0b02f9090d7d7aa46fffee8c1bbb44121b9a9f7eb43820b55cf39d603c8184a",
+  "frozen_sha256_matches": true,
+  "reviewed_file_sha256": {
+    "brief.md": "2ccb7bf4eba7a19c83120b03893e746cc666d86efb0c662afcc9512d95a902f3",
+    "case.json": "fcc5e2e77ff652b28fc4625b64ce60ec65bff24d1662e2fda4160701c0e580e9",
+    "raw-response.md": "d0b02f9090d7d7aa46fffee8c1bbb44121b9a9f7eb43820b55cf39d603c8184a",
+    "FIRST-ANSWER.json": "f3f0ce223a18b60d1e549926915dd3fc7f95a12caeb8f629c48a1367ae715d53",
+    "commands.json": "4a72c58de5742940bb8091f654562842aa35b16e15a32e9c4518bc5fdfdc247a",
+    "tool-availability.md": "ed2fc3cdc5ad0c00ca2a8666260f5e7c0be7948aecec728063a5b9b3d08775f4"
+  },
+  "findings": [
+    {
+      "id": "M1",
+      "severity": "none",
+      "sources": [
+        "brief.md F1",
+        "SKILL.md workflow 1 and 5"
+      ],
+      "finding": "The 74 visitors are retained only as last-year supplied evidence. No annual recurrence, current date, availability, or owner confirmation process is inferred. Public invitation contains none of those claims."
+    },
+    {
+      "id": "M2",
+      "severity": "none",
+      "sources": [
+        "brief.md audience and constraints",
+        "raw-response.md Context and provenance / Execution backlog"
+      ],
+      "finding": "Audience is supplied, audience problem explicitly unknown, discovery rationale explicitly inferred and untested. Brand publisher is correct. Six effort estimates sum to 120 minutes, and preparation versus later authorized publication is distinguished."
+    },
+    {
+      "id": "M3",
+      "severity": "none",
+      "sources": [
+        "brief.md F2",
+        "references/channel-phases.md",
+        "templates/campaign-brief.md",
+        "raw-response.md Measurement and decision"
+      ],
+      "finding": "Opt-in and sign-up dates support aggregate counts. Unknown baseline stays unknown. At-least-one threshold is explicitly tentative, not an outcome promise. No source tracking or denominator is fabricated; attribution limits and conditional release review are explicit."
+    },
+    {
+      "id": "M4",
+      "severity": "low",
+      "sources": [
+        "brief.md small campaign brief",
+        "raw-response.md entire answer"
+      ],
+      "finding": "The brief is usable but longer and more administratively detailed than the small, two-hour request needs. This is a concision preference, not a material completeness or truth failure."
+    }
+  ],
+  "assessment": "The representative invitation is warm, relevant and editable; channels, owners, tasks, source ledger and measurement are all present. Proposed owner-review checks are labeled proposals or unknowns rather than an existing confirmation process.",
+  "untested_limits": [
+    "No live execution, external verification, network, paid, account, Git or business tools used.",
+    "First-answer command and tool-availability records were read as supplied evidence; their assertions are not independently observed execution traces.",
+    "No campaign reach, platform performance, rendering, generated-image QA, website implementation or publication checks performed.",
+    "Findings apply only to this synthetic supplied-material case; no wider skill reliability claim."
+  ]
+}

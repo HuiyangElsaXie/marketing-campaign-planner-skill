@@ -24,3 +24,5 @@ Files: SKILL.md is the workflow; references/ contains the adapted method; templa
 
 ## Sources and license scope / 来源与许可
 One narrowly adapted module from coreyhaines31/marketingskills: skills/launch/SKILL.md, pinned at 365b412152b9542499ca1439426f7fc3cc92bb65. Actual upstream MIT LICENSE checked on 2026-10-16. See THIRD_PARTY_NOTICES.md for exact links and modifications. No repository-wide license is assigned to original additions by this package; the preserved MIT license applies to its identified upstream material.
+
+Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。

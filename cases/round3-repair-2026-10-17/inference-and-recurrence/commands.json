@@ -1,0 +1,39 @@
+[
+  {
+    "event": "read",
+    "tool": "exec_command via functions.exec",
+    "paths": [
+      "repo/SKILL.md",
+      "case/brief.md",
+      "case/case.json"
+    ],
+    "outcome": "success; exit 0",
+    "recording": "retrospective reconstruction of actual first tool call"
+  },
+  {
+    "event": "read_and_sha256",
+    "tool": "exec_command via functions.exec",
+    "paths": [
+      "repo/references/channel-phases.md",
+      "repo/templates/campaign-brief.md"
+    ],
+    "hash_paths": [
+      "repo/SKILL.md",
+      "repo/references/channel-phases.md",
+      "repo/templates/campaign-brief.md"
+    ],
+    "outcome": "success; exit 0",
+    "recording": "retrospective reconstruction of actual second tool call"
+  },
+  {
+    "event": "write",
+    "tool": "exec_command via functions.exec; Python pathlib",
+    "paths": [
+      "case/raw-response.md",
+      "case/commands.json",
+      "case/tool-availability.md"
+    ],
+    "outcome": "files written by this call; process result returned separately",
+    "recording": "contemporaneous event record"
+  }
+]
